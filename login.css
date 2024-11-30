@@ -1,0 +1,256 @@
+@font-face {
+    font-family: firstFont;
+    src: url(fonts/AvenirLTStd-Black.otf) format("opentype");
+}
+
+@font-face {
+    font-family: secondFont;
+    src: url(fonts/AvenirLTStd-BlackOblique.otf) format("opentype");
+}
+
+@font-face {
+    font-family: thirdFont;
+    src: url(fonts/AvenirLTStd-Book.otf) format("opentype");
+}
+
+@font-face {
+    font-family: fourthFont;
+    src: url(fonts/AvenirLTStd-BookOblique.otf) format("opentype");
+}
+
+@font-face {
+    font-family: fifthFont;
+    src: url(fonts/AvenirLTStd-Heavy.otf) format("opentype");
+}
+
+@font-face {
+    font-family: sixthFont;
+    src: url(fonts/AvenirLTStd-HeavyOblique.otf) format("opentype");
+}
+
+@font-face {
+    font-family: seventhFont;
+    src: url(fonts/AvenirLTStd-Light.otf) format("opentype");
+}
+
+@font-face {
+    font-family: eigthFont;
+    src: url(fonts/AvenirLTStd-LightOblique.otf) format("opentype");
+}
+
+@font-face {
+    font-family: ninthFont;
+    src: url(fonts/AvenirLTStd-Medium.otf) format("opentype");
+}
+
+@font-face {
+    font-family: tenthFont;
+    src: url(fonts/AvenirLTStd-MediumOblique.otf) format("opentype");
+}
+
+@font-face {
+    font-family: eleventhFont;
+    src: url(fonts/AvenirLTStd-Oblique.otf) format("opentype");
+}
+
+@font-face {
+    font-family: twelvthFont;
+    src: url(fonts/AvenirLTStd-Roman.otf) format("opentype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;             
+    margin: 0;
+    width: 1440px;
+    height: 1024px;
+    background: var(--Foundation-Yellow-Normal, #FEFFDD);
+}
+
+.div1 {
+    position: absolute;
+    top: 84px;
+    right: 80px;
+    bottom: 74px;
+    left: 80px;
+    width: 1280px;
+    height: 866px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: var(--Foundation-Blue-Darker, #11313B);
+}
+
+.div2 {
+    position: absolute;
+    top: 65px;
+    right: 65px;
+    bottom: 64px;
+    left: 65px;
+    width: 1150px;
+    height: 737px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: var(--Foundation-Yellow-Normal, #FEFFDD);
+}
+
+.circle {
+    position: absolute;
+    top: 44px;
+    left: 23px;
+    right: 1087px;
+    bottom: 653px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.div4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.div3 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    position: relative;
+}
+
+.div5 .wel h4 {
+    color: var(--Foundation-Text-black-Normal, #131313);
+    font-family: "Avenir LT Std";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ema {
+    width: 402px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid rgba(65, 65, 65, 0.34);
+    background: rgba(179, 182, 183, 0.19);
+}
+
+.div6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div7 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    background: var(--Foundation-White, #F4F4F4);
+}
+
+.rem {
+    color: var(--Foundation-Blue-Normal, #318BAA);
+    font-family: "Avenir LT Std";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 120%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.login {
+    color: var(--Foundation-White, #F4F4F4);
+    font-family: "Avenir LT Std";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    width: 400px;
+    height: 54px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    background: var(--Foundation-Blue-Normal, #318BAA);
+    border: 1px solid #318BAA;
+    cursor: pointer;
+}
+
+.div8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    flex-shrink: 0;
+}
+
+.or {
+    color: var(--foundation-text-black-light-active, #B6B6B6);
+    font-family: "Avenir LT Std";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 120%;
+}
+
+.google {
+    width: 47px;
+    height: 47px;
+    flex-shrink: 0;
+}
+
+.apple {
+    width: 38.576px;
+    height: 47.43px;
+    flex-shrink: 0;
+}
+
+.account {
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.account h4 {
+    color: var(--foundation-text-black-light-active, #B6B6B6);
+    font-family: "Avenir LT Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 120%;
+}
+
+span {
+    color: var(--foundation-blue-normal-hover, #2C7D99);
+    font-family: "Avenir LT Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 120%;
+}
