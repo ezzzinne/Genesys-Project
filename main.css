@@ -291,6 +291,8 @@ body, html {
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
+    width: 1440px;
+    text-align: center;
 }
 
 .div4 {
